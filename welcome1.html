@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Datang</title>
+    <style>
+        /* Basic reset and styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec; /* Light pink background */
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            margin: 0;
+        }
+
+        /* Welcome container with pink gradient */
+        .welcome-container {
+            background: linear-gradient(135deg, #ff80ab, #ff4081); /* Gradient from light to dark pink */
+            color: white;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        /* Main heading */
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 1.3rem;
+            line-height: 1.6;
+            color: #ffe0f0; /* Light pinkish text */
+        }
+
+        /* Button style */
+        .cta-btn {
+            margin-top: 20px;
+            padding: 12px 30px;
+            background-color: #ff4081; /* Darker pink button */
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #ff80ab; /* Lighter pink on hover */
+            transform: scale(1.05);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <h1>SELAMAT DATANG!</h1>
+        <p>Terima kasih telah membuka web istri prak sunghoon!</p>
+        <button class="cta-btn"></button>
+    </div>
+</body>
+</html>

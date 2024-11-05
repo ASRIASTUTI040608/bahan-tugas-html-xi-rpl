@@ -1,0 +1,127 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Sign Up Form Styles */
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #e7789d, #d454ae);
+  color: #fff;
+}
+
+.container h1 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #d66ac8;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 15px;
+  background-color: #e53feb;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #dd60b3;
+}
+
+/* Landing Page Styles */
+.landing-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #fd92dd, #e4778e);
+  color: #fff;
+}
+
+.landing-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.landing-container h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.landing-container ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.2rem;
+}
+
+.landing-container ul li {
+  margin: 10px 0;
+}
+
+.landing-container .btn-join {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: #ff498f;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.landing-container .btn-join:hover {
+  background-color: #73bcce;
+}
